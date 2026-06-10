@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" role="img" aria-labelledby="title desc">
+  <title id="title">CWay water bottle placeholder</title>
+  <desc id="desc">A clean illustrated bottle of water on a dark restaurant background.</desc>
+  <rect width="640" height="512" fill="#101010"/>
+  <circle cx="322" cy="268" r="180" fill="#FDCA0D" opacity=".12"/>
+  <ellipse cx="322" cy="430" rx="122" ry="28" fill="#000" opacity=".45"/>
+  <path d="M276 88h92v46c0 24 34 55 34 104v176c0 34-28 62-62 62h-36c-34 0-62-28-62-62V238c0-49 34-80 34-104V88Z" fill="#EAF8FF"/>
+  <path d="M292 36h60c10 0 18 8 18 18v38H274V54c0-10 8-18 18-18Z" fill="#1F76D2"/>
+  <path d="M276 84h92v30h-92z" fill="#0E4FA8"/>
+  <path d="M256 252h132v86H256z" fill="#1F76D2"/>
+  <path d="M268 270h108v50H268z" fill="#FFFFFF" opacity=".95"/>
+  <text x="322" y="303" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1F76D2">CWAY</text>
+  <path d="M284 150c-16 24-22 51-22 92v170c0 22 18 40 40 40h8V142c-8 0-18 2-26 8Z" fill="#fff" opacity=".48"/>
+  <path d="M348 142v310h6c22 0 40-18 40-40V242c0-42-20-71-46-100Z" fill="#C5ECFF" opacity=".55"/>
+  <path d="M278 126h88" stroke="#86D8FF" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+</svg>
