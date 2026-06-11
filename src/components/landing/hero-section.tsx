@@ -1,7 +1,7 @@
 import { CheckCircle2, MessageCircle, ShoppingBag } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { glovoUrl, heroBadges, whatsappUrl } from "./data";
+import { glovoUrl, heroBadges } from "./data";
 
 export function HeroSection() {
   return (
@@ -29,7 +29,7 @@ export function HeroSection() {
               Order on Glovo
             </Link>
             <Link
-              href={whatsappUrl}
+              href="#order-flow"
               className="inline-flex min-h-14 items-center justify-center gap-3 rounded-md border border-[#FDCA0D] px-6 py-3 text-base font-bold text-white transition hover:bg-[#FDCA0D] hover:text-[#0B0B0B]"
             >
               <MessageCircle className="h-5 w-5 text-[#25D366]" aria-hidden="true" />

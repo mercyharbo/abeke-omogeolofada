@@ -275,6 +275,49 @@ export const socialVideos = [
 
 export const quickLinks = navLinks;
 
+export const orderMealOptions = [
+  "Turkey Supreme",
+  "Chicken Bliss",
+  "Classic Ofada Delight",
+  "Royal Snail Treat",
+  "Ofada/Ayamase Bowl Package",
+  "Stew Bowl",
+  "Moi Moi",
+  "Efo Riro",
+  "Egusi",
+  "Peppered Snails",
+  "Chicken Wings",
+  "Custom Order",
+];
+
+export const eventTypes = [
+  "Corporate Lunch",
+  "Birthday",
+  "Wedding",
+  "House Party",
+  "Office Catering",
+  "Family Gathering",
+  "Other Event",
+];
+
+export const eventPackageOptions = [
+  "Classic Ofada Packages",
+  "Ofada/Ayamase Bowl Packages",
+  "Stew Bowls",
+  "Moi Moi Packs",
+  "Mixed Nigerian Food Menu",
+  "Custom Event Menu",
+];
+
+export const eventBudgetRanges = [
+  "Below NGN 50,000",
+  "NGN 50,000 - NGN 150,000",
+  "NGN 150,000 - NGN 300,000",
+  "NGN 300,000 - NGN 500,000",
+  "Above NGN 500,000",
+  "Not sure yet",
+];
+
 export const glovoUrl =
   "https://glovoapp.com/en/ng/lagos/stores/abeke-omogeolofada-los";
 export const phoneNumber = "+2348160619155";

@@ -1,6 +1,6 @@
 import { MessageCircle, ShoppingBag } from "lucide-react";
 import Link from "next/link";
-import { glovoUrl, menuPriceGroups, stewSizes, whatsappUrl } from "./data";
+import { glovoUrl, menuPriceGroups, stewSizes } from "./data";
 
 export function FullMenuPricing() {
   return (
@@ -139,7 +139,7 @@ export function FullMenuPricing() {
 
       <div className="grid gap-3 sm:grid-cols-2 lg:mx-auto lg:w-fit">
         <Link
-          href={whatsappUrl}
+          href="#order-flow"
           className="inline-flex min-h-12 items-center justify-center gap-3 rounded-md bg-[#25D366] px-5 py-3 text-sm font-bold text-[#0B0B0B] transition hover:bg-white"
         >
           <MessageCircle className="h-5 w-5" aria-hidden="true" />

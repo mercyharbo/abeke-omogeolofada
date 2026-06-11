@@ -12,7 +12,7 @@ export function WhyChooseUsSection() {
             return (
               <article
                 key={feature.title}
-                className="flex gap-5 rounded-lg bg-[#FFF8DF] p-6 shadow-sm ring-1 ring-black/5"
+                className="flex gap-5 rounded-lg bg-[#FFF8DF] p-5 ring-1 ring-border"
               >
                 <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-[#FDCA0D] text-[#0B0B0B]">
                   <Icon className="h-8 w-8" aria-hidden="true" />

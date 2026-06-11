@@ -74,7 +74,7 @@ export function Navbar() {
 function OrderButton({ className = "" }: { className?: string }) {
   return (
     <Link
-      href="#order"
+      href="#order-flow"
       className={`inline-flex min-h-12 items-center gap-2 rounded-md bg-[#FDCA0D] px-5 py-3 text-sm font-bold text-[#0B0B0B] transition hover:bg-white ${className}`}
     >
       <ShoppingBag className="h-5 w-5" aria-hidden="true" />

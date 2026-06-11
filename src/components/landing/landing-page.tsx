@@ -6,6 +6,7 @@ import { OrderCTASection } from './order-cta-section'
 import { PopularMealsSection } from './popular-meals-section'
 import { SocialVideosSection } from './social-videos-section'
 import { TestimonialsSection } from './testimonials-section'
+import { WhatsAppOrderSection } from './whatsapp-order-section'
 import { WhyChooseUsSection } from './why-choose-us-section'
 
 export function LandingPage() {
@@ -19,6 +20,7 @@ export function LandingPage() {
         <SocialVideosSection />
         <WhyChooseUsSection />
         <TestimonialsSection />
+        <WhatsAppOrderSection />
         <OrderCTASection />
       </main>
       <Footer />

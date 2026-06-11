@@ -1,6 +1,6 @@
 import { MessageCircle, Phone, ShoppingBag } from "lucide-react";
 import Link from "next/link";
-import { glovoUrl, phoneNumber, whatsappUrl } from "./data";
+import { glovoUrl, phoneNumber } from "./data";
 
 export function OrderCTASection() {
   return (
@@ -21,7 +21,7 @@ export function OrderCTASection() {
             Order on Glovo
           </Link>
           <Link
-            href={whatsappUrl}
+            href="#order-flow"
             className="inline-flex min-h-14 items-center justify-center gap-3 rounded-md bg-[#0B0B0B] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#171717]"
           >
             <MessageCircle className="h-5 w-5 text-[#25D366]" aria-hidden="true" />
